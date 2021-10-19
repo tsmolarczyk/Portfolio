@@ -10,6 +10,11 @@ body {
 header {
     background-color: #fff;
     height: 90px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
 
 }
 
@@ -51,4 +56,41 @@ align-items: center;
     flex: 1;
     font-size: .8rem;
     background-color: #fff;
+}
+
+
+
+/* HERO SECTION */
+.home-hero {
+    height:800px;
+    background: url(./img/background.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(222, 0, 0);
+}
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content .heading-primary{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    /* vertical-align: auto; */
+}
+
+.home-content .home-hero-info{
+    margin: 3rem auto 0 auto;
+}
+.home-content .text-primary {
+    text-align: center;
+}
+
+.home-content .home-hero-cta{
+    margin: 3rem auto 0 auto;
 }
