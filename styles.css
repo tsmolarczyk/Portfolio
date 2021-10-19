@@ -84,7 +84,7 @@ align-items: center;
 }
 
 .home-content .heading-primary{
-    font-size: 4rem;
+    font-size: 3.65rem;
     letter-spacing: 1px;
     width: 100%;
     text-align: center;
@@ -107,4 +107,18 @@ align-items: center;
 
 .home-content .home-hero-cta{
     margin: 3rem auto 0 auto;
+}
+
+.btn {
+    width: 100%;
+    background-color: #fff;;
+}
+
+.btn button {
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
