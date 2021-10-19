@@ -7,19 +7,48 @@
 body {
     background-color: #30d5c8;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    height: 8rem;
+header {
     background-color: #fff;
+    height: 90px;
+
 }
-.name {
+
+.header-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+padding: 0 50px 0 50px;
+}
+
+.header-logo-container {
+
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
-img {
-    max-width: 5em;
+.header-logo-container .header-img{
+    width: 47px;
+    height: 47px;
+}
+.header-name {
+    margin-left: 10px;
+}
+.header-main {
+    display: flex;  
+    justify-content: center;
+    height: 70%;
+    width: 25rem;
+
+}
+
+.header-main .nav-btn {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: .8rem;
+    background-color: #fff;
 }
