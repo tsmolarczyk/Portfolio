@@ -3,9 +3,10 @@
     margin: 0;
     padding:0;
     font-family: 'Source Sans Pro', sans-serif;
-    }
-body {
     font-size: 62.5%;
+
+}
+body {
 }
 header {
     background-color: #fff;
@@ -39,12 +40,15 @@ align-items: center;
 }
 .header-name {
     margin-left: 10px;
+    font-size: 1.9rem;
+    line-height: 2.8rem;
 }
 .header-main {
     display: flex;  
     justify-content: center;
+    font-size: 1.5rem;
     height: 70%;
-    width: 25rem;
+    
 
 }
 
@@ -55,7 +59,10 @@ align-items: center;
     align-items: center;
     flex: 1;
     background-color: #fff;
-        font-weight: bold;
+padding: 0 4rem;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    font-weight: bold;
 
 }
 
@@ -63,7 +70,7 @@ align-items: center;
 
 /* HERO SECTION */
 .home-hero {
-    height:800px;
+    height:100vh;
     background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -84,12 +91,13 @@ align-items: center;
     align-items: center;
     top:50%;
     left: 50%;
-    width: 90%;
-    max-width: 65rem;
+    width: 100%;
+    max-width: 90rem;
 }
 
 .home-content .heading-primary{
-    font-size: 3.65rem;
+    font-size: 5.7rem;
+    line-height: 8.5rem;
     letter-spacing: 1px;
     width: 100%;
     text-align: center;
@@ -100,33 +108,38 @@ align-items: center;
     margin: 2rem 10rem 0;
     max-width: 80rem;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.5rem;
 
     
 }
 .home-content .text-primary {
     text-align: center;
-    font-size: 1.3rem;
-    line-height: 1.6;
-    width: 100%;
+    font-size: 2.1rem;
+    line-height: 3.3rem;
+    font-weight: 400;
+    width: 80rem;
+    padding: 0 2rem;
 }
 
 .home-content .home-hero-cta{
-    margin: 3rem auto 0 auto;
+    margin: 4rem auto 0 auto;
 }
 
 .btn {
-    width: 100%;
-    background-color: #fff;;
+    width: 100%; 
+    background-color: #fff;
 }
 
 .btn button {
-    width: 15rem;
-    height: 4rem;
-    border-radius: 10px;
+    width: 25rem;
+    height: 6rem;
+    border-radius: 1rem;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    line-height: 2.8rem;
     font-weight: bold;
+    letter-spacing: .5rem;
+    cursor: pointer;
 }
 
 /* about section */
@@ -137,8 +150,8 @@ align-items: center;
 }
 
 .main-container {
-    max-width: 65rem;
-    width:90%;
+    
+    width:65%;
     margin: auto;
 }
 
@@ -146,14 +159,15 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 12rem;
 
 }
 
-.heading .heading-main {
+.heading-main {
         top: 50%;
-        font-size: 2.6rem;
         margin: 1rem 0;
-        line-height: 4rem;
+        font-size: 4.2rem;
+        line-height: 6.2rem;
         text-align: center;
 }
 
@@ -162,9 +176,10 @@ align-items: center;
         padding: 0 1.5rem;
         text-align: center;
         font-weight: bold;
-        font-size: 21px;
-        line-height: 33px;
-        color: rgba(85,85,85,85)
+        font-size: 2.1rem;
+        line-height: 3.3rem;
+        color: rgba(85,85,85,85);
+        width: 70%;
     }
 
     .about-content{
@@ -178,13 +193,16 @@ align-items: center;
         flex: 1;
         color:rgba(102,102,102)
     }
-    .about-content-main h3{
+    .about-content h3{
     color:rgb(0, 0, 0);
     margin-bottom: 2rem;
+    font-size: 2.9rem;
+    line-height: 4.4rem;
     }
 
-    .about-content-detail {
-    line-height: 2rem;
+    .about-content-p {
+    line-height: 3.2rem;
+    font-size: 1.9rem;
         }
     .about-content-detail .second {
     margin: .8rem 0;
@@ -192,4 +210,42 @@ align-items: center;
 
         .about-content-skills {
             flex: .95;
+            margin-left: 16em;
     }
+    
+    .skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-bottom: 2rem;
+    width: 85%;
+}
+    .skill {
+    display: inline-block;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    padding: 1rem  1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    background: rgba(153,153,153,.2);
+    color: rgba(85,85,85,85);
+    border-radius: 5px;
+    font-weight: 600;
+    }
+
+    .btn-con button {
+    background: #008060;
+    color: white;
+    width: 15rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.9rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    letter-spacing: .5rem;
+    cursor: pointer;
+    margin-top: 3rem;
+}
