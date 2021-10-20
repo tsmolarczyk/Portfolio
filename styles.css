@@ -2,11 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    font-size: 16.5px;
     font-family: 'Source Sans Pro', sans-serif;
     }
 body {
-
+    font-size: 62.5%;
 }
 header {
     background-color: #fff;
@@ -131,7 +130,66 @@ align-items: center;
 }
 
 /* about section */
-.projects{
-    height:300px;
+.about{
+    height:100%;
     background-color: whitesmoke;
+    padding: 7rem 0;
 }
+
+.main-container {
+    max-width: 65rem;
+    width:90%;
+    margin: auto;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.heading .heading-main {
+        top: 50%;
+        font-size: 2.6rem;
+        margin: 1rem 0;
+        line-height: 4rem;
+        text-align: center;
+}
+
+.heading-sub {
+        margin:  0 4.5rem;
+        padding: 0 1.5rem;
+        text-align: center;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 33px;
+        color: rgba(85,85,85,85)
+    }
+
+    .about-content{
+        margin-top: 2rem;
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-content-main {
+        flex: 1;
+        color:rgba(102,102,102)
+    }
+    .about-content-main h3{
+    color:rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    }
+
+    .about-content-detail {
+    line-height: 2rem;
+        }
+    .about-content-detail .second {
+    margin: .8rem 0;
+}
+
+        .about-content-skills {
+            flex: .95;
+    }
