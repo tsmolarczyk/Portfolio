@@ -65,9 +65,8 @@ padding: 0 4rem;
 
 }
 
-
-
 /* HERO SECTION */
+
 .home-hero {
     height:100vh;
     background-image: 
@@ -144,7 +143,7 @@ padding: 0 4rem;
 /* about section */
 .about{
     height:100%;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 7rem 0;
     width:65%;
     margin: auto;
@@ -203,9 +202,9 @@ padding: 0 4rem;
     margin: .8rem 0;
 }
 
-        .about-content-skills {
-            flex: .95;
-            margin-left: 16em;
+    .about-content-skills {
+    flex: .95;
+        margin-left: 16em;
     }
     
     .skills{
@@ -249,11 +248,9 @@ padding: 0 4rem;
 /* FOOTER */
 footer{
     color: white;
-    background: grey;
+    background: black;
 }
 .footer-container{
-    height:100%;
-    background-color: red;
     width:65%;
     margin: auto;
 }
@@ -264,8 +261,31 @@ footer{
 }
 
 .main-footer-name{
-    font-size: large;
-    width: 20%;
+    width: 55%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+ .heading{
+    font-size: 2.3rem;
+    line-height: 3.4rem;
+}
+.descript {
+    font-size: 1.6rem;
+    line-height: 2.7rem;
 }
 
+.main-footer-media{
+    font-size:2.3rem;
+    width: 20%;
 
+}
+
+.main-footer-down{
+    align-content: center;
+    padding: 7rem 0 ;
+    text-align: center;
+}
+.main-footer-down .link{
+font-size: 1.2rem;
+line-height: 1.9rem;
+}
