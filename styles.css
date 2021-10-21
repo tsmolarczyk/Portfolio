@@ -243,7 +243,36 @@ padding: 0 4rem;
     cursor: pointer;
     margin-top: 3rem;
 }
+/* CONTACT */
 
+.contact{
+    margin: auto;
+    font-size: 15rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.contact .main-container{
+    width:65%;
+    background: #008060;    
+
+}
+.sec-main{
+    margin:auto;
+    display: block;
+    text-align: center;    
+    font-size: 4rem;
+    line-height: 6rem;
+    font-weight: 700;
+}
+
+.sec-sub{
+
+}
+.contact-btn {
+    background: #008060;
+    
+}
 
 /* FOOTER */
 footer{
