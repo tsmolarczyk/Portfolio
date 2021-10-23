@@ -243,6 +243,28 @@ padding: 0 4rem;
     cursor: pointer;
     margin-top: 3rem;
 }
+/* PROJECTS */
+.projects{
+    height:100%;
+    background-color: white;
+    padding: 7rem 0;
+    width:65%;
+    margin: auto;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-row-img {
+    width: 10%;
+}
+
+.projects-row-rontent
+
+
+
 /* CONTACT */
 
 .contact{
@@ -273,13 +295,13 @@ padding: 0 4rem;
     line-height: 6rem;
     font-weight: 700;
 }
-.sec-main::after {
+.contact-heading-container::after {
     content: '';
     position: absolute;
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #008060;
+    background: red;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
