@@ -47,8 +47,6 @@ align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     height: 70%;
-    
-
 }
 
 .header-main .nav-btn {
@@ -123,6 +121,28 @@ padding: 0 4rem;
     margin: 4rem auto 0 auto;
 }
 
+.home-socials {
+  position: absolute;
+  left: 0;
+  margin:auto;
+  border: 2px solid #eee;
+  border-left: 2px solid #eee;
+  transform: translateY(-50%);
+  } 
+
+.home-social{
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.social-icon{
+    width:100%;
+    
+
+}
+
 .btn {
     width: 100%; 
     background-color: #fff;
@@ -140,11 +160,28 @@ padding: 0 4rem;
     cursor: pointer;
 }
 
+.home-mouse {
+    position:absolute;
+    margin-top: 40%;
+}
+.arrow{
+  border: solid white;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 /* about section */
+
 .about{
-    height:100%;
+    width:100%;
     background-color: rgb(250,250,250);
-    padding: 7rem 0;
+}
+.about .main-container{
+    height:100%;
+    padding:7rem 0;
     width:65%;
     margin: auto;
 }
