@@ -7,7 +7,6 @@
 
 }
 body{
-    min-width: 230px;
 }
 
 
@@ -21,6 +20,7 @@ header {
     top: 0;
     font-size: 1.4rem;
     font-weight: bolder;
+    z-index: 99;
 }
 
 .header-content {
@@ -81,6 +81,7 @@ padding: 0 4rem;
     align-items: center;
     color: #fff;
     font-weight: bolder;
+    min-height: 400px;
 }
 .home-content {
     display: flex;
@@ -165,10 +166,14 @@ padding: 0 4rem;
     letter-spacing: .5rem;
     cursor: pointer;
 }
-
 .home-mouse {
-    position:absolute;
-    margin-top: 700px;
+  position: absolute;
+  left: 50%;
+  bottom:1rem;
+  margin:auto;
+  border: 2px solid #eee;
+  border-left: 2px solid #eee;
+  transform: translateY(-50%);
 }
 .arrow{
   border: solid white;
@@ -188,7 +193,7 @@ padding: 0 4rem;
 .about .main-container{
     height:100%;
     padding:7rem 0;
-    width:65%;
+    width:75%;
     margin: auto;
 }
 
@@ -239,7 +244,9 @@ padding: 0 4rem;
 
     .about-content-main {
         flex: 1;
-        color:rgba(102,102,102)
+        color:rgba(102,102,102);
+        margin-right: 4rem;
+
     }
     .about-content h3{
     color:rgb(0, 0, 0);
@@ -298,11 +305,18 @@ padding: 0 4rem;
 }
 /* PROJECTS */
 .projects{
-    height:100%;
+    width:100%;
     background-color: white;
     padding: 7rem 0;
-    width:65%;
     margin: auto;
+}
+.projects .main-container{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    
 }
 
 .heading-project {
@@ -388,7 +402,7 @@ padding: 0 4rem;
     background: linear-gradient(to right,rgba(0,128,96,.8),rgba(0, 0, 0, 0.8)),url(./img/common-bg.svg);
     background-size: cover;}
 .contact .main-container{
-    width:65%;
+    width:75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -497,7 +511,7 @@ footer{
     background: black;
 }
 .footer-container{
-    width:65%;
+    width:75%;
     margin: auto;
 }
 
@@ -556,7 +570,13 @@ line-height: 1.9rem;
 
 @media (max-width: 900px) {
     * {
-        font-size: 47%;
+        font-size: 52%;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .about-content-skills{
+        margin-top: 5rem;
     }
 }
 
@@ -565,6 +585,12 @@ line-height: 1.9rem;
         font-size: 37%;
     }
     .header-main, .home-socials {
+        display: none;
+    }
+}
+
+@media (max-height: 500px) {
+    .home-mouse {
         display: none;
     }
 }
