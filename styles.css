@@ -579,14 +579,14 @@ line-height: 1.9rem;
     .contact-form-container{
     width:100%;
     }
+    .header-main, .home-socials {
+        display: none;
+    }
 }
 
 @media (max-width: 680px) {
     * {
         font-size: 37%;
-    }
-    .header-main, .home-socials {
-        display: none;
     }
 }
 
