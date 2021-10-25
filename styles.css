@@ -6,10 +6,11 @@
     font-size: 62.5%;
 
 }
-
 body{
-    width: min(90%, 70.5rem);
+    min-width: 230px;
 }
+
+
 
 header {
     background-color: #fff;
@@ -88,7 +89,7 @@ padding: 0 4rem;
     align-items: center;
     top:50%;
     left: 50%;
-    width: 100%;
+    width: 92%;
     max-width: 90rem;
 }
 
@@ -102,10 +103,13 @@ padding: 0 4rem;
 }
 
 .home-content .home-hero-info{
-    margin: 2rem 10rem 0;
+    margin: 2rem 0;
     max-width: 80rem;
     font-weight: bold;
     line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    width: 90%;
 
     
 }
@@ -114,8 +118,8 @@ padding: 0 4rem;
     font-size: 2.1rem;
     line-height: 3.3rem;
     font-weight: 400;
-    width: 80rem;
-    padding: 0 2rem;
+    width:100%;
+
 }
 
 .home-content .home-hero-cta{
@@ -254,7 +258,6 @@ padding: 0 4rem;
 
     .about-content-skills {
     flex: .95;
-        margin-left: 16em;
     }
     
     .skills{
@@ -547,4 +550,21 @@ line-height: 1.9rem;
     line-height: 1.5rem;
     height: 100%;
     padding-right: 1rem;
+}
+
+/* RWD */
+
+@media (max-width: 900px) {
+    * {
+        font-size: 47%;
+    }
+}
+
+@media (max-width: 680px) {
+    * {
+        font-size: 37%;
+    }
+    .header-main, .home-socials {
+        display: none;
+    }
 }
