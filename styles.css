@@ -171,8 +171,6 @@ padding: 0 4rem;
   left: 50%;
   bottom:1rem;
   margin:auto;
-  border: 2px solid #eee;
-  border-left: 2px solid #eee;
   transform: translateY(-50%);
 }
 .arrow{
@@ -439,7 +437,7 @@ padding: 0 4rem;
 .contact-form-container{
     display: flex;
     justify-content: center;
-    width:60%;
+    width:75%;
     margin: 5rem auto 5rem auto;
     text-align: right;
     border-radius: 5px;
@@ -577,6 +575,9 @@ line-height: 1.9rem;
     }
     .about-content-skills{
         margin-top: 5rem;
+    }
+    .contact-form-container{
+    width:100%;
     }
 }
 
