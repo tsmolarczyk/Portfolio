@@ -7,6 +7,10 @@
 
 }
 
+body{
+    width: min(90%, 70.5rem);
+}
+
 header {
     background-color: #fff;
     height: 90px;
