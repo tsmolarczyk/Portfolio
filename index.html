@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+    <section id='top'></section>
     <header class="header">
 
         <div class="header-content">
@@ -26,15 +26,15 @@
                 <div class="header-img">
                     <img src="./img/cropped_face.png" alt="Tomek Smolarczyk Image">
                 </div>
-                <span class="header-name">TOMEK SMOLARCZYK</span>
+                <span class="header-name" onClick="window.location='#top'">TOMEK SMOLARCZYK</span>
             </div>
 
-            <div class="header-main">
-                <button class='nav-btn'>HOME</button>
-                <button class='nav-btn'> ABOUT</button>
-                <button class='nav-btn'> PROJECTS</button>
-                <button class='nav-btn'> CONTACT</button>
-            </div>
+            <ul class="header-main">
+                <li class='nav-btn' onClick="window.location='#top'">HOME</li>
+                <li class='nav-btn' onClick="window.location='#about'"> ABOUT</li>
+                <li class='nav-btn' onClick="window.location='#projects'"> PROJECTS</li>
+                <li class='nav-btn' onClick="window.location='#contact'"> CONTACT</li>
+            </ul>
 
         </div>
     </header>
@@ -76,7 +76,7 @@
         </div>
     </section>
     <!-- ***********ABOUT*********** -->
-    <section id=" about" class="about">
+    <section id="about" class="about">
         <div class="main-container">
 
             <h2 class="heading">
