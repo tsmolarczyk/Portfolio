@@ -37,6 +37,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.header-logo-container:hover {
+    cursor: pointer;
+    color: #008060;
+}
 
 .header-logo-container .header-img{
     width: 47px;
@@ -54,6 +58,7 @@ align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     height: 70%;
+
 }
 
 .header-main .nav-btn {
@@ -67,8 +72,14 @@ padding: 0 4rem;
     font-size: 1.7rem;
     line-height: 2.5rem;
     font-weight: bold;
-
+cursor: pointer;
 }
+
+.header-main .nav-btn:hover {
+color: #008060;
+}
+
+
 
 /* HERO SECTION */
 
@@ -142,7 +153,12 @@ padding: 0 4rem;
   justify-content: center;
   align-items: center;
   padding: .3rem;
+  cursor: pointer;
 
+}
+
+.home-social:hover{
+    background-color: rgba(255,255,255, .2);
 }
 .social-icon{
     width:100%;
