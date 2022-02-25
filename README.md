@@ -1,3 +1,3 @@
 
-https://tsmolarczyk.github.io/Portfolio-site/
+https://tsmolarczyk.github.io/Portfolio/
 
