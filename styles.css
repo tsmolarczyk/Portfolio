@@ -8,6 +8,7 @@
 html,
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   position: relative;
@@ -416,7 +417,7 @@ header {
   font-size: 1.8rem;
   line-height: 3.1rem;
   margin: 2rem auto;
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 .btn-case-container {
   display: flex;
@@ -425,8 +426,10 @@ header {
 }
 .btn-case button {
   background: #008060;
+  margin-right: 2rem;
+  padding: 0.2rem;
   color: white;
-  width: 15rem;
+  width: 25rem;
   height: 5rem;
   border-radius: 1rem;
   border: none;
