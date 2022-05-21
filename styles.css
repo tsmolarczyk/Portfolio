@@ -213,6 +213,7 @@ header {
   font-weight: bold;
   letter-spacing: 0.5rem;
   cursor: pointer;
+  margin-right: 2rem;
 }
 /* .home-mouse {
   position: absolute;
