@@ -213,7 +213,8 @@ header {
   font-weight: bold;
   letter-spacing: 0.5rem;
   cursor: pointer;
-  margin-right: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 /* .home-mouse {
   position: absolute;
@@ -303,6 +304,7 @@ header {
 .about-content-p {
   line-height: 3.2rem;
   font-size: 1.9rem;
+  text-align: justify;
 }
 .about-content-detail .second {
   margin: 0.8rem 0;
@@ -317,6 +319,7 @@ header {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-end;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   width: 85%;
 }
@@ -392,6 +395,7 @@ header {
 .project-row-img {
   flex: 1;
   width: 100%;
+  min-width: 50%;
 }
 
 .mobile {
@@ -411,14 +415,21 @@ header {
   font-size: 2.8rem;
   line-height: 4.2rem;
 }
-.project-content {
-  margin-bottom: 10rem;
+
+.project-row {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 3px solid #008060;
 }
+
 .project-row-desc {
   font-size: 1.8rem;
   line-height: 3.1rem;
   margin: 2rem auto;
   margin-top: 2rem;
+  margin-bottom: 4rem;
+  color: rgba(85, 85, 85, 85);
+  text-align: justify;
 }
 .btn-case-container {
   display: flex;
@@ -622,9 +633,12 @@ footer {
 
 /* RWD */
 
+@media (max-width: 1400px) {
+}
+
 @media (max-width: 900px) {
   * {
-    font-size: 52%;
+    font-size: 70%;
   }
   .about-content {
     flex-direction: column;
@@ -642,17 +656,23 @@ footer {
   .hamb-btn {
     display: inline;
   }
+  .project-row-img {
+    display: none;
+  }
 }
 
 @media (max-width: 680px) {
   * {
-    font-size: 37%;
+    font-size: 60%;
   }
 }
 
 @media (max-height: 500px) {
   .home-mouse {
     display: none;
+  }
+  .btn-case {
+    width: 1rem;
   }
 }
 /* next step  */
