@@ -12,6 +12,7 @@ body {
 }
 body {
   position: relative;
+  min-width: 660px;
 }
 header {
   background-color: #fff;
@@ -671,6 +672,7 @@ footer {
   .home-mouse {
     display: none;
   }
+
   .btn-case {
     width: 1rem;
   }
